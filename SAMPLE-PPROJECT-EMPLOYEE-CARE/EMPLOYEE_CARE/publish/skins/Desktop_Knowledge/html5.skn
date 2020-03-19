@@ -1,0 +1,21 @@
+{
+  "layout": "single_page",
+  "name": "Azure_Blue",
+  "variables": {
+    "css": {
+      "logo_height": "30px",
+      "logo_width": "30px",
+      "search_box_field_shadow_color": "#cccccc",
+      "search_box_mobile_color": "#000000",
+      "search_result_and_label": "#000000",
+      "sidebar_bgcolor": "#fcfcfc",
+      "glossary_search_bgcolor": "#FFFFFF",
+      "index_search_bgcolor": "#FFFFFF"
+    },
+    "html": {
+      "do_not_preserve_ar": true,
+      "assets": ["Layout.css"],
+      "custom_buttons": []
+    }
+  }
+}

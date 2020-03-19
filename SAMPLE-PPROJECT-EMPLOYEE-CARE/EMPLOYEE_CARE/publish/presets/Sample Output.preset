@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <variable>
+      <path>../variablesets/UK.var</path>
+    </variable>
+    <conditional>
+      <path>../expressions/eBook_Content.expn</path>
+    </conditional>
+    <toc>
+      <path>../../toc/EmployeeCare3.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/EmployeeCare3.glo</path>
+    </glossary>
+    <masterpage>
+      <path>../../contents/assets/masterpages/EmployeeCareStd.htt</path>
+    </masterpage>
+    <mapFiles type="array">
+      <mapFilesitem>
+        <path>../mapfiles/BSSCDefault.ali</path>
+      </mapFilesitem>
+    </mapFiles>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>EmployeeCare3</title>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>//Mac/Home/Desktop/Robohelp Projects/Output/</outputPath>
+  <name>Sample Output</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>Employee_Care/Introduction.htm</name>
+    <path>../../contents/Employee_Care/Introduction.htm</path>
+  </defaultTopic>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <filter>
+    <path>../filters/Responsive HTML5.filter</path>
+  </filter>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <path>../skins/Desktop_Knowledge/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+</preset>

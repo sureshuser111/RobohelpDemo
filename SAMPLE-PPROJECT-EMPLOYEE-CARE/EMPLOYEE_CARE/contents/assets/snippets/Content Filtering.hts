@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-comment" content="Shows results of filtering in this project"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Content Filtering</title>
+</head>
+
+<body>
+<table class="SimpleGridShaded" cellspacing="1" style="border-collapse:collapse;" width="100%" cellpadding="1">
+	<colgroup><col style="width: 25%;"/>
+	<col style="width: 25%;"/>
+	<col style="width: 25%;"/>
+	<col style="width: 25%;"/>
+	</colgroup><tbody><tr class="t1st">
+		<td><p class="TableHeading">Topic</p></td>
+		<td><p class="TableHeading" style="text-align: center;">US</p></td>
+		<td><p class="TableHeading" style="text-align: center;">Canada</p></td>
+		<td><p class="TableHeading" style="text-align: center;">UK</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p class="TableText">Attendance</p></td>
+		<td><p class="TableText">The term &quot;vacation&quot; is used 
+		 in the last paragraph of the Types of Absence.</p></td>
+		<td><p class="TableText">Uses the same term.</p></td>
+		<td><p class="TableText">In the UK the term is &quot;holiday&quot;.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p class="TableText">Cars</p></td>
+		<td><p class="TableText">Because of the distances to be travelled, 
+		 journeys employees make will be by plane with the company reimbursing 
+		 the cost.</p></td>
+		<td><p class="TableText">Because of the distances to be travelled, 
+		 journeys employees make will be by plane with the company reimbursing 
+		 the cost.</p></td>
+		<td><p class="TableText">This topic only appears in the UK category. 
+		 The distances are less so a car is provided. </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p class="TableText">Introduction</p></td>
+		<td><p class="TableText">Only Healthcare is listed under Company 
+		 benefits.</p></td>
+		<td><p class="TableText">Only Healthcare is listed under Company 
+		 benefits.</p></td>
+		<td><p class="TableText">Cars are also listed as a benefit.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p class="TableText">Sick Pay</p></td>
+		<td><p class="TableText">In Payment of Benefit it is stated that 
+		 employees must have sick pay insurance.</p></td>
+		<td><p class="TableText">In Payment of Benefit it is stated that 
+		 employees must have sick pay insurance.</p></td>
+		<td><p class="TableText">In the UK there is government funded insurance.</p></td>
+	</tr>
+</tbody></table>
+
+
+</body></html>

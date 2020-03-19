@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<map>
+    
+<title>Variables</title>
+  
+<keydef keys="Exp_Car">
+<topicmeta>
+<keywords>
+<keyword>60 cents per mile</keyword></keywords></topicmeta></keydef>
+<keydef keys="HR_Mail">
+<topicmeta>
+<keywords>
+<keyword>First Avenue, Anytown, U.S.A.</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Entertain">
+<topicmeta>
+<keywords>
+<keyword>US$0 per occasion</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_TBC_Travel">
+<topicmeta>
+<keywords>
+<keyword>US$750 return</keyword></keywords></topicmeta></keydef>
+<keydef keys="CoName">
+<topicmeta>
+<keywords>
+<keyword>Whirl the World</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Air_Travel">
+<topicmeta>
+<keywords>
+<keyword>US$1500 return</keyword></keywords></topicmeta></keydef>
+<keydef keys="KB_Name">
+<topicmeta>
+<keywords>
+<keyword>Employee Care 3</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Breakfast">
+<topicmeta>
+<keywords>
+<keyword>US$15 per day</keyword></keywords></topicmeta></keydef>
+<keydef keys="Credit_Card_Criteria">
+<topicmeta>
+<keywords>
+<keyword>US$400</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Lunch_Dinner_Ent">
+<topicmeta>
+<keywords>
+<keyword>US$75 per person</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Dinner_Staff">
+<topicmeta>
+<keywords>
+<keyword>US$45 per day</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Ent_Xcs">
+<topicmeta>
+<keywords>
+<keyword>US$300</keyword></keywords></topicmeta></keydef>
+<keydef keys="Exp_Lunch_Staff">
+<topicmeta>
+<keywords>
+<keyword>US$0</keyword></keywords></topicmeta></keydef>
+<keydef keys="HR_Email">
+<topicmeta>
+<keywords>
+<keyword>&lt;a class=&quot;popupspot&quot; href=&quot;JavaScript:hhctrl.TextPopup(&#39;This is a non functioning email address used in this sample project.&#39;,&#39;Microsoft Sans Serif,8&#39;,10,10,00000000,0xc0ffff)&quot;&gt;hr.usa@whirltheworld.com&lt;/a&gt;</keyword></keywords></topicmeta></keydef></map>

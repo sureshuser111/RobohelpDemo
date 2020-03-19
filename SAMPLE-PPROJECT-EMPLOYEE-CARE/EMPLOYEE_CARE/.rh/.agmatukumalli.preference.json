@@ -1,0 +1,51 @@
+{
+  "recent-files::internal:document": [{
+    "path": "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/publish/presets/Sample Output.preset",
+    "pinned": false,
+    "time": "Mar 16, 4:59 PM"
+  }, {
+    "path": "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/contents/AUTHOR_INFO_READ_FIRST/READ_FIRST.htm",
+    "pinned": false,
+    "time": "Mar 16, 4:58 PM"
+  }],
+  "file-modified": "2020-03-17T16:03:17+05:30",
+  "recent-files::internal:hyperlink": [{
+    "path": "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/contents/Employee_Care/Introduction.htm",
+    "pinned": false,
+    "time": "Mar 16, 5:00 PM"
+  }],
+  "generate": {
+    "outputs": {
+      "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/publish/presets/Sample Output.preset": {
+        "exists": false,
+        "path": false,
+        "time": "2020-03-16T17:01:36+05:30",
+        "logFile": "C:/Users/AGMATU~1/AppData/Local/Temp/RHTMP/Sample Output.ehtml"
+      },
+      "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/publish/presets/Multiscreen HTML5.preset": {
+        "exists": false,
+        "path": false,
+        "time": "2020-03-16T17:01:57+05:30",
+        "logFile": "C:/Users/AGMATU~1/AppData/Local/Temp/RHTMP/Multiscreen HTML5.ehtml"
+      },
+      "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/publish/presets/Microsoft_HTML_Help.preset": {
+        "exists": true,
+        "path": "//Mac/Home/Documents/My RoboHelp Projects/outputs/EmployeeCare3/Microsoft_HTML_Help_US/employeecare_us.chm",
+        "time": "2020-03-16T17:02:17+05:30",
+        "logFile": "C:/Users/AGMATU~1/AppData/Local/Temp/RHTMP/Microsoft_HTML_Help.ehtml"
+      },
+      "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/publish/presets/eBook.preset": {
+        "exists": true,
+        "path": "//Mac/Home/Documents/My RoboHelp Projects/outputs/EmployeeCare3/eBook/EmployeeCareRh.epub",
+        "time": "2020-03-16T17:02:51+05:30",
+        "logFile": "C:/Users/AGMATU~1/AppData/Local/Temp/RHTMP/eBook.ehtml"
+      },
+      "//Mac/Home/Desktop/Robohelp Projects/SAMPLE-PPROJECT-EMPLOYEE-CARE/EMPLOYEE_CARE/publish/presets/Multiscreen HTML5 Desktop Only.preset": {
+        "exists": false,
+        "path": false,
+        "time": "2020-03-16T17:04:45+05:30",
+        "logFile": "C:/Users/AGMATU~1/AppData/Local/Temp/RHTMP/Multiscreen HTML5 Desktop Only.ehtml"
+      }
+    }
+  }
+}

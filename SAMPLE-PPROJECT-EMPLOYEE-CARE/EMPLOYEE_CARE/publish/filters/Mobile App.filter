@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<filter displayname="Filter by Country" multiple="no" withingroup="no">    
+<condition name="Others" value="US" displayname="US" default="yes"></condition>
+<condition name="Others" value="Canada" displayname="Canada" default="no"></condition>
+<condition name="Others" value="UK" displayname="UK" default="no"></condition></filter>

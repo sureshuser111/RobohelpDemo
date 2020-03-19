@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-check-list" content="Ran Smart Index"/>
+<meta name="condition-tags" content="Others:AuthorContent"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Search Technique Enhancements</title>
+<link rel="StyleSheet" href="../../assets/css/empcare.css" type="text/css"/>
+</head>
+
+<body>
+<h1>Search Technique Enhancements</h1>
+<h2>Enhanced Search Results in Responsive Layouts</h2>
+<p>The author can now choose whether to open the search results in the 
+ main Topic pane, or the Navigation Sidebar.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/Search1.jpg" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+<p>This is accomplished by selecting &quot;true&quot; in the Responsive 
+ Layout Customization Editor shown here.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/Search2.jpg" alt="" style="border: none;" border="0"/></p>
+<h2>Author-Customized Search Context</h2>
+<p>The Search Context (the text under the Topic Title) can be customized 
+ by the author. The default is a short amount of the first paragraph to 
+ give the reader a sense of what the topic is about.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/Search3.jpg" alt="" style="border: none;" border="0"/></p>
+<h2>Improving Search Ranking</h2>
+<p>One way to help your users find the most relevant results is with the 
+ Search Ranking capabilities Adobe RoboHelp. For WebHelp or WebHelp Pro, 
+ the author can control whether or not the Search Ranking column in the 
+ Search Results is presented.</p>
+<p>To disable Search Ranking, examine the properties of the WebHelp or 
+ WebHelp Pro single source layouts and ensure the option labeled Hide Rank 
+ Column in Search Results is enabled.</p>
+<p>Search Ranking is influenced by a number of factors including this hierarchy:</p>
+<p class="ListSpacing">Search Keyword(s) appear in this order of importance:<br/>
+</p>
+<ol class="NumberedAboutTopics">
+	<li class="NumberedAboutTopics"><p><span style="font-weight: bold;">Title</span> 
+	 of a topic</p></li>
+	<li class="NumberedAboutTopics"><p><span style="font-weight: bold;">Topic 
+	 Keyword</span> - this is very powerful. (See Keywords on the General 
+	 tab of Topic Properties)</p></li>
+	<li class="NumberedAboutTopics"><p><span style="font-weight: bold;">Headings</span> 
+	 1, 2, 3, 4, 5, 6 (in that order)</p></li>
+	<li class="NumberedAboutTopics"><p><span style="font-weight: bold;">Number 
+	 of times</span> in topic text</p></li>
+	<li class="NumberedAboutTopics"><p><span style="font-weight: bold;">Project 
+	 Synonyms</span> created from Output Tab &gt; Synonyms.</p></li>
+</ol>
+<h2>Support for AND search</h2>
+<p>By default, RoboHelp performs OR searches when a user types multiple 
+ words without enclosing them in quotation marks. This means that RoboHelp 
+ finds all topics that have any of the words specified in the Search box. 
+ The end user may want to limit the search where specific words occur in 
+ the same topic. This can now be done with the new AND Search feature.</p>
+<p>AND Examples:</p>
+<p><b style="font-weight: bold;">Image AND photo</b> finds topics containing 
+ both terms.</p>
+<p><b style="font-weight: bold;">Image AND photo AND graphic</b> finds 
+ records containing all three terms.</p>
+<p>Enabling this feature for WebHelp and WebHelp Pro:</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/ShowANDSearchOption.gif" alt="" style="border: none; 
+		 margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 7pt;" align="left" border="0"/>In the output settings, you can specify 
+ whether or not AND search should be enabled by default. In addition, when 
+ AND search is supported in the output, end users have the option to enable 
+ or disable it. For WebHelp and WebHelp Pro, select the Show AND Search 
+ In Output option in the output settings, RoboHelp performs AND search 
+ when a user types multiple words without enclosing them in quotation marks. 
+ Then, RoboHelp finds only the topics that have all the words specified 
+ in the Search box.  AND search can be used in combination with phrase 
+ search.</p>
+<p>To enable AND Search in Multiscreen HTML5 Screen Layouts place a Multiscreen 
+ HTML5 Widget - &quot;Advanced Search Options&quot; into your screen layout.</p>
+<h2>External Content Search metadata provides access to user-generated 
+ content</h2>
+<p>The help author may now be a &quot;curator&quot; of content that guides 
+ the end-user more precisely to the most relevant material. Today, help 
+ systems go beyond static help files. There are blogs, wikis, and other 
+ Web 2.0 communities that are happy to share information whether it relates 
+ to work or play. Your end-users may tap into this rich and dynamic repository 
+ to find information as well as contribute to the body of information themselves.</p>
+<p>This is accomplished by using External Content Search. This makes it 
+ easy to enter the search metadata. The author may create keywords that 
+ are linked to a URL. When the end user uses RoboHelp&#39;s search facility 
+ and searches for these keywords, the links are listed among the search 
+ results and ranked in the top position. The resulting link presents a 
+ live site inside the topic pane.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/ExternalContentSearch-CBTexample.gif" alt="" style="border: none;" border="0"/></p>
+<p>Notice the Conditional Build Tag &quot;Draft&quot; has been added to 
+ the Travelocity search term.</p>
+<h2>What the External Content Search feature does</h2>
+<p>Example Scenario: An author wants to make it convenient for users to 
+ make travel arrangements. The company wants certain travel sites to come 
+ up in the search results for certain keywords that users may enter, such 
+ as</p>
+<table cellspacing="1" width="41.626%" style="border-collapse:collapse;" cellpadding="1">
+	<colgroup><col style="width: 47.93%;"/>
+	<col style="width: 52.07%;"/>
+	</colgroup><tbody><tr>
+		<td><ul class="BulletedAboutTopics">
+			<li class="BulletedAboutTopics"><p class="ListSpacing">Sales</p></li>
+			<li class="BulletedAboutTopics"><p class="ListSpacing">Funnel</p></li>
+			<li class="BulletedAboutTopics"><p class="ListSpacing">Expedia</p></li>
+			<li class="BulletedAboutTopics"><p class="ListSpacing">Xpedia</p></li>
+			<li class="BulletedAboutTopics"><p class="ListSpacing">xpeedia</p></li>
+		</ul></td>
+		<td><ol>
+			<li style="list-style: none; display: inline;"><ul class="BulletedAboutTopics">
+				<li class="BulletedAboutTopics"><p class="ListSpacing">Travel</p></li>
+				<li class="BulletedAboutTopics"><p class="ListSpacing">Travelocity</p></li>
+				<li class="BulletedAboutTopics"><p class="ListSpacing">Orbitz</p></li>
+				<li class="BulletedAboutTopics"><p class="ListSpacing">Orbits</p></li>
+			</ul></li>
+		</ol>
+		<p class="ListSpacing"> </p></td>
+	</tr>
+</tbody></table>
+<p>You can create a Google Advanced Search of a specific term (or terms) 
+ then capture the URL from the address bar of the browser and use this 
+ URL in order to allow pre-populating of a Google search. If you open the 
+ External Content Search pod you can see this in action and note how the 
+ terms are associated with the link. The External Content Search keywords 
+ cause the associated Link to rank at the number one position.</p>
+<h2>How to see the External Content Search feature in action</h2>
+<ol class="BasicNumber"><li>Generate 
+ one of the supported outputs with the External Content Search feature 
+ enabled.</li><li>The supported 
+ outputs for this feature are:</li></ol>
+
+<ol style="list-style: disc;">
+	<li style="list-style: none; display: inline;"><ul class="BulletedAboutTopics">
+		<li class="BulletedAboutTopics"><p class="ListSpacing">Multiscreen 
+		 HTML5</p></li>
+		<li class="BulletedAboutTopics"><p class="ListSpacing">Responsive 
+		 HTML5</p></li>
+		<li class="BulletedAboutTopics"><p class="ListSpacing">WebHelp</p></li>
+		<li class="BulletedAboutTopics"><p class="ListSpacing">WebHelp 
+		 Pro</p></li>
+		<li class="BulletedAboutTopics"><p class="ListSpacing">FlashHelp</p></li>
+		<li class="BulletedAboutTopics"><p class="ListSpacing">FlashHelp 
+		 Pro</p></li>
+	</ul></li>
+</ol>
+<ol class="BasicNumber"><li style="counter-reset: item1 2;">View the 
+ output.</li><li>Perform 
+ a search using one of the search terms programmed in the External Content 
+ Search dialog.</li><li>Click 
+ one of the resulting search result links.</li></ol>
+
+
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/AdvancedSearchOptions.gif" alt="" style="border: none;" border="0"/></p>
+<h2>Searching documents in their file native formats</h2>
+<p>Sometimes, a file must remain in its native format. So files such as 
+ PDFs, Docs, Spreadsheets and PowerPoints 
+ can be added to your project and be searchable. RoboHelp calls these &quot;Baggage&quot; 
+ files because they &quot;go along for the ride&quot; when you publish 
+ your project. Now you have your choice to include or exclude those baggage 
+ file types. This includes support for CJK (Chinese 
+ / Japanese / Korean) search as well.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/WebHelpSettings-ExcludeBaggageFilesInSearch.gif" alt="" style="border: none;" border="0"/></p>
+<p class="ListSpacing"> </p>
+<p> </p>
+<p> </p>
+
+
+</body></html>

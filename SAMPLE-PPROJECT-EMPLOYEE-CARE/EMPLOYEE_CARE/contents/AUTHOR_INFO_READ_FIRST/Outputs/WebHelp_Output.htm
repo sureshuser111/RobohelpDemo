@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="condition-tags" content="Others:AuthorContent"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>WebHelp Output</title>
+<link rel="StyleSheet" href="../../assets/css/empcare.css" type="text/css"/>
+</head>
+
+<body>
+
+<h1>WebHelp Output</h1>
+<p class="EmphasisSlate">WebHelp, as its name suggests, is primarily intended 
+ to be viewed by users accessing files stored on a web server. It can and 
+ often is installed on the user&#39;s desktop but for Internet Explorer you 
+ will need to apply what is known as the Mark of the Web (an option that 
+ can be applied when configuring the layout). Some users have also found 
+ links to Word and PDF files troublesome when WebHelp is installed locally. 
+ These are Windows issues, make sure you test thoroughly. For locally installed 
+ help the better option will be the HTML5 outputs or Microsoft HTML Help 
+ (CHMs).</p>
+<p>Below you will find some tips on this output relating to this project 
+ and WebHelp generally.</p>
+<h2>General Settings</h2>
+<p>You can define a Favicon that will then appear in the browser tabs. 
+ The start page is the three frame page that shows the user the toolbar, 
+ the navigation pane (the table of contents and index) and the default 
+ topic. In this project the Favicon is stored in the Assets folder.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/webhelp_general.png" alt="" style="border: none;" border="0"/></p>
+<h2>Content Categories</h2>
+<p>Highlight Content Categories to see the categories you have set up. 
+ If you are not using Dynamic User-Centric Categories (Content Categories) 
+ you will only need to set up one category. Here it has been named US to 
+ note that its content is based on the US content in the topics. </p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/webhelp_content_01.png" alt="" style="border: none;" border="0"/></p>
+<p class="Normal-Single"> </p>
+<p>Highlight a specific category to see its configuration. You choose which 
+ Table of Contents, Index and so on that you want to use if you have more 
+ than one option.</p>
+<p>You also choose the default topic. Do make sure you understand the difference 
+ between the start page, which you defined in the General Settings, and 
+ the default topic. <a data-target="POPUP423966764" data-rhwidget="DropSpot" href="#" class="dropspot">Show 
+ me.</a></p>
+<div data-targetname="POPUP423966764">
+	<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/WebStartPage.png" alt="" style="border: none;" border="0"/></p>
+	<ul class="BulletedAboutTopics">
+		<li class="BulletedAboutTopics" style="font-style: normal;"><p class="ListSpacing">The start page is the one that opens the 
+		 three frames, all that you see above in the blue border.</p></li>
+		<li class="BulletedAboutTopics" style="font-style: normal;"><p class="ListSpacing">The default topic is the first topic that 
+		 users will see.</p></li>
+	</ul></div>
+<p>You have the option to configure using a different CSS for the output 
+ to override the CSS you used in the Design Editor when creating the topics. 
+ This can be useful if you want to have a different appearance, perhaps 
+ in different markets. If you are using Content Categories, you might want 
+ each category to be different.</p>
+<p>In this example, the topics contain content that is specific to certain 
+ countries so the Conditional Build Expression has been set to exclude 
+ all content not required in the online help for the US based users.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/webhelp_content_02_2015.png" alt="" style="border: none;" border="0"/></p>
+<p class="Normal-Single"><br/>
+Note how much easier it is to select the build expression. In older versions 
+ you would have seen the expression and had to work out what would get 
+ included. The name makes it obvious. </p>
+<p class="Normal-Single"> </p>
+<p class="Normal-Single"><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_01b_2015.png" alt="" style="border: none;" border="0"/></p>
+<h2>Navigation</h2>
+<p>Most of the options here are fairly self explanatory and described in 
+ Adobe RoboHelp&#39;s online help.</p>
+<p><img src="../../assets/images/tip.gif" alt="" style="border: none;" border="0"/></p>
+<p>Breadcrumb links have been deselected in this sample as the alternative 
+ method of including them in a Master Page has been used. Sometimes authors 
+ use both methods and wonder why they are seeing two sets of breadcrumbs. 
+ That&#39;s why!</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/webhelp_navigation.png" alt="" style="border: none;" border="0"/></p>
+<h2>Search</h2>
+<p>Most of the options here are fairly self explanatory and described in 
+ Adobe RoboHelp&#39;s online help.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/webhelp_search.png" alt="" style="border: none;" border="0"/></p>
+<h2>Publish</h2>
+<p>Once your help has been generated, you need to make it available to 
+ users. This may be done by installing it on the desktop (please note the 
+ warning at the beginning of this topic) or by publishing it to a server,</p>
+<p>How this is done depends on certain factors and how your developers 
+ have chosen to operate.</p>
+<p>When you generate the help, Adobe RoboHelp deletes all previous files 
+ in the target folder.</p>
+<ul class="BulletedAboutTopics">
+	<li class="BulletedAboutTopics"><p class="ListSpacing">In most scenarios 
+	 that is fine and all the files will be generated to that folder automatically. 
+	 In that scenario, you can either zip the contents and pass the zip 
+	 file to your developers or you can additionally publish direct to 
+	 the server.</p></li>
+	<li class="BulletedAboutTopics"><p class="ListSpacing">Advanced users 
+	 may have modified the standard output in ways that require dependent 
+	 files that Adobe RoboHelp is not aware of and will not be in the generated 
+	 content. Publishing does not delete anything from the server so once 
+	 the files have been upload uploaded, they will remain there until 
+	 they are deleted manually. That avoids having to remember to upload 
+	 them every time.</p></li>
+</ul>
+<p>See Adobe RoboHelp&#39;s online help for details of how to set up Publishing.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/webhelp_publish.png" alt="" style="border: none;" border="0"/></p>
+<p><br/>
+</p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a1', 'POPUP423966764');
+//]]></script>
+
+
+</body></html>

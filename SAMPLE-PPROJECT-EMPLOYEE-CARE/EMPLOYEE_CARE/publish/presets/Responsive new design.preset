@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>EmployeeCare3</title>
+  <content>
+    <toc>
+      <path>../../toc/EmployeeCare3.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/EmployeeCare3.glo</path>
+    </glossary>
+    <language>
+      <name>en_US</name>
+      <code type="number">1033</code>
+      <displayName>English (US)</displayName>
+    </language>
+    <masterpage>
+      <path>../../contents/assets/masterpages/EmployeeCareStd.htt</path>
+    </masterpage>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>//Mac/Home/Documents/My RoboHelp Projects/outputs/EmployeeCare3/Responsive new design</outputPath>
+  <name>Responsive new design</name>
+  <starterPage>index.htm</starterPage>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <path>../skins/Charcoal_Grey/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <republish type="boolean">true</republish>
+</preset>

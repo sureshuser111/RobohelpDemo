@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/EmployeeCare3.toc</path>
+      <name>EmployeeCare3</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/EmployeeCare3.glo</path>
+      <name>EmployeeCare3</name>
+    </glossary>
+    <conditional>
+      <name>Canada_Content_PrintedDocs</name>
+      <path>../expressions/Canada_Content_PrintedDocs.expn</path>
+    </conditional>
+    <variable>
+      <name>Canada</name>
+      <path>../variablesets/Canada.var</path>
+    </variable>
+    <generatetoc type="boolean">true</generatetoc>
+    <includereftopics type="boolean">true</includereftopics>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+  </content>
+  <outputPath>//Mac/Home/Documents/My RoboHelp Projects/outputs/EmployeeCare3/Printed_Documentation_Canada</outputPath>
+  <starterPage>Employee_Care_Canada.pdf</starterPage>
+  <pdf>
+    <multiheaders type="boolean">true</multiheaders>
+    <topicmasterpages>
+      <first>../../contents/assets/masterpages/Print Layout Canada.htt</first>
+      <even>../../contents/assets/masterpages/Print Layout Canada.htt</even>
+      <odd>../../contents/assets/masterpages/Print Layout Canada.htt</odd>
+      <common type="boolean">true</common>
+    </topicmasterpages>
+    <tocmasterpages>
+      <common type="boolean">true</common>
+    </tocmasterpages>
+    <glomasterpages>
+      <first>../../contents/assets/masterpages/Print Layout Canada.htt</first>
+      <even>../../contents/assets/masterpages/Print Layout Canada.htt</even>
+      <odd>../../contents/assets/masterpages/Print Layout Canada.htt</odd>
+      <common type="boolean">true</common>
+    </glomasterpages>
+    <indexmasterpages>
+      <first>../../contents/assets/masterpages/Print Layout Canada.htt</first>
+      <even>../../contents/assets/masterpages/Print Layout Canada.htt</even>
+      <odd>../../contents/assets/masterpages/Print Layout Canada.htt</odd>
+      <common type="boolean">true</common>
+    </indexmasterpages>
+    <margin type="array">
+      <marginitem type="number">15</marginitem>
+      <marginitem type="number">15</marginitem>
+      <marginitem type="number">15</marginitem>
+      <marginitem type="number">15</marginitem>
+    </margin>
+    <downloadTimeout type="number">200</downloadTimeout>
+  </pdf>
+  <search>
+    <context type="boolean">false</context>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <name>Printed Documentation Canada - Letter Arial Cover 1</name>
+  <type>pdf</type>
+  <title>empcare</title>
+  <defaultTopic></defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+</preset>

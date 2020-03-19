@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="EmployeeCare3">          
+<title>Glossary Definitions</title>        
+<glossentry id="CEO">
+<glossterm>CEO</glossterm>
+<glossdef>[Chief Executive Officer]</glossdef></glossentry>
+<glossentry id="Core_time">
+<glossterm>Core time</glossterm>
+<glossdef>[The hours between which office based employees must be in the office.]</glossdef></glossentry>
+<glossentry id="Entitlement">
+<glossterm>Entitlement</glossterm>
+<glossdef>[The amount of sick pay to which an employee is entitled]</glossdef></glossentry>
+<glossentry id="NHS">
+<glossterm>NHS</glossterm>
+<glossdef>[National Health Service - UK]</glossdef></glossentry>
+<glossentry id="Self-certification">
+<glossterm>Self-certification</glossterm>
+<glossdef>[A certificate signed by an employee giving the details of illness]</glossdef></glossentry>
+<glossentry id="SSB">
+<glossterm>SSB</glossterm>
+<glossdef>[State Sickness Benefit - UK]</glossdef></glossentry>
+<glossentry id="SSP">
+<glossterm>SSP</glossterm>
+<glossdef>[Statutory Sick Pay - UK]</glossdef></glossentry></glossgroup>

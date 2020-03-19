@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-comment" content="Contact details for HR"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>HR Contact</title>
+<style type="text/css">/*<![CDATA[*/
+table.AlternateBlueColorGrid {
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+}
+table.AlternateBlueColorGrid td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.AlternateBlueColorGrid tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+table.AlternateBlueColorGrid tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+	background-color: #D3DFEE;
+}
+/*]]>*/</style>
+</head><body><object id="hhctrl" classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11" width="0" height="0" vspace="0" hspace="0" border="0" type="application/x-oleobject"></object>
+
+
+
+<h2>Contacting Human Resources</h2>
+<p>Human Resources can be contacted at the following locations:</p>
+<h3>Mail</h3>
+<p><span data-keyref="HR_Mail">First Avenue, Anytown, U.S.A.</span></p>
+<h3 data-condition="Others:DHTML">Email</h3>
+<p data-condition="Others:DHTML"><a class="popupspot" href="JavaScript:hhctrl.TextPopup(&#39;This is a non functioning email address used in this sample project.&#39;,&#39;Microsoft Sans Serif,8&#39;,10,10,00000000,0xc0ffff)" data-keyref="HR_Email">hr.usa@whirltheworld.com</a></p>
+
+
+</body></html>

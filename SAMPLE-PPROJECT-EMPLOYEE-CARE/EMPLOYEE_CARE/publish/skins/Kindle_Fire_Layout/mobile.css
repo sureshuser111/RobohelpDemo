@@ -1,0 +1,349 @@
+﻿body {
+    margin: 0;
+    min-width: 320px;
+    padding: 0;
+}
+div.headerBar{
+	height: 48px;
+	line-height: 48px;
+	white-space: nowrap;
+	background-color: #000000;
+}
+div.homeButton { 
+	float: left;
+	margin-left: 10px;
+	z-index: 1;
+	position: absolute;
+}
+
+a.btnLink{
+	margin-top: 2px;
+	height: 44px;
+	display: block;
+	text-decoration: none;
+}
+a.btnLink:hover{
+	background-color: #7fcce5;
+}
+a.btnLink:active{
+	background-color: #0099cc;
+}
+
+img.homeIcon{
+	width: 44px;
+	height: 44px;
+	border:none;
+	margin-top: 2px;
+}
+img.logoIcon{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+img.searchIcon{
+	width: 44px;
+	height: 44px;
+	border:none;
+}
+div.headerTitle{
+	margin-left: 64px;
+	width: 65%;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: Helvetica, "Droid Sans", Arial;
+	color: #ffffff;
+	z-index: 0;
+	position: absolute;
+}
+table.searchBar{
+	width: 100%;
+	border-bottom: 1px #666666 solid;
+	background-color: #cccccc;
+	padding: 0px;
+	margin: 0px;
+}
+td.searchBoxBlock{
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-bottom: 0px\9;
+}
+input.searchTextBox{
+	border: 0;
+	height: 28px;
+	width:  100%;
+	font-size: 16px;
+	padding-left: 5px;
+}
+td.searchLinkBlock{
+	padding: 2px;
+	margin-right: 10px;
+	width: 44px;
+}
+div.topicContent{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+img.navigationArrow{
+	width: 24px;
+	height: 24px;
+	margin-right: 20px;
+	float: right;
+	border: none;
+}
+div.linkItem
+{
+	border-bottom: 1px #cccccc solid;
+	height: 44px;
+}
+a.link
+{
+	font-family: Helvetica, "Droid Sans", Arial;
+	padding: 12px;
+	display: block;
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	height: 20px;
+}
+a.link:hover{
+	background-color: #7fcce5;
+	color: white;
+}
+a.link:active{
+	background-color: #0099cc;
+	color: white;
+}
+div.backBtnLink
+{
+	font-family: Helvetica, "Droid Sans", Arial;
+	padding: 14px;
+	display: block;
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px #cccccc solid;
+}
+div.backBtnLinkHover
+{
+	font-family: Helvetica, "Droid Sans", Arial;
+	padding: 14px;
+	display: block;
+	background-color: #7fcce5;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px #cccccc solid;	
+}
+div.backBtnLinkClick
+{
+	font-family: Helvetica, "Droid Sans", Arial;
+	padding: 14px;
+	display: block;
+	background-color: #0099cc;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px #cccccc solid;	
+}
+div.tocBackItem{
+	font-size: 14px;
+	border-bottom: 1px #cccccc solid;
+	padding-top: 12px;
+	height: 30px;
+}
+div.tocListItem{
+	font-size: 14px;
+	border-bottom: 1px #cccccc solid;
+	padding-top: 17px;
+	height: 40px;
+	cursor: pointer;
+	cursor: hand;
+	color: #000000;
+}
+div.tocListItemHover{
+	font-size: 14px;
+	border-bottom: 1px #cccccc solid;
+	padding-top: 17px;
+	background-color: #7fcce5;
+	color: #ffffff;
+	height: 40px;
+	cursor: pointer;
+	cursor: hand;
+}
+div.tocListItemClick{
+	font-size: 14px;
+	border-bottom: 1px #cccccc solid;
+	padding-top: 17px;
+	background-color: #0099cc;
+	height: 40px;
+	cursor: pointer;
+	cursor: hand;
+}
+div.tocListItemSelected{
+	font-size: 14px;
+	border-bottom: 1px #cccccc solid;
+	padding-top: 12px;
+	padding-bottom: 5px;
+	background-color: #0099cc;
+	height: 40px;
+	cursor: pointer;
+	cursor: hand;
+}
+span.tocTerm{
+	float: left;
+	padding-left: 10px;
+}
+span.tocBookLink{
+	font-weight: bold;
+	font-style: italic;
+	float: left;
+	padding-left: 10px;
+}
+span.homePageLinks{
+	float: left;
+}
+div.searchResCountBar{
+	height: 48px;
+	line-height: 48px;
+	white-space: nowrap;
+	border-top: 1px #ffffff solid;
+	background-color: #cccccc;
+	font-family: Helvetica, "Droid Sans", Arial;
+	color: #666666;
+}
+div.searchResCountMsg{
+	float: left;
+	margin-left: 10px;
+}
+div.searchResCountDropDown{
+	float: right;
+	margin-right: 10px; 
+}
+div.searchMsg{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 12px;
+	border-bottom: 1px #cccccc solid;
+	background-color: #ffffff;
+	font-family: Helvetica, "Droid Sans", Arial;
+	color: #000000;	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+div.searchResListItem{
+	display: block;
+	padding: 12px;
+	border-bottom: 1px #cccccc solid;
+	background-color: #ffffff;
+	color: #000000;	
+}
+div.searchResTitle{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #ffffff;
+	font-family: Helvetica, "Droid Sans", Arial;
+	color: #000000;	
+	cursor: pointer;
+	cursor: hand;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+div.searchResTitleHover{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+
+	background-color: #7fcce5;
+	font-family: Helvetica, "Droid Sans", Arial;
+	color: #ffffff;	
+	cursor: pointer;
+	cursor: hand;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+span.searchContext{
+	font-size: 14px;
+	font-weight: normal;
+}
+div.prevBtnDiv{
+	height: 25px;
+	width: 90px;
+	cursor: pointer;
+	cursor: hand;
+	float: left;
+	position: absolute;
+}
+div.nextBtnDiv{
+	height: 25px;
+	width: 90px;
+	cursor: pointer;
+	cursor: hand;
+	float: right;
+	position: relative;
+}
+span.browseSeqBack{
+	float: right;
+}
+span.browseSeqNext{
+	float: left;
+}
+a.prevBtn
+{
+	height: 20px;
+	display: block;
+	font-size: 18px;
+	font-family: Arial;
+	color: black;
+	text-decoration: none;
+	padding: 12px 12px 12px 5px;
+}
+a.nextBtn
+{
+	height: 20px;
+	display: block;
+	font-size: 18px;
+	font-family: Arial;
+	color: black;
+	text-decoration: none;
+	padding: 12px;
+}
+a.prevBtn:hover
+{
+	color: #ffffff;
+	background-color: #91d6ff;
+}
+a.prevBtn:click
+{
+	color: #ffffff;
+	background-color: #11a6ff;
+}
+a.nextBtn:hover
+{
+	color: #ffffff;
+	background-color: #91d6ff;
+}
+a.nextBtn:click
+{
+	color: #ffffff;
+	background-color: #11a6ff;
+}
+a.nolink
+{
+	text-decoration: none;	
+}

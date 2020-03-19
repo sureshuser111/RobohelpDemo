@@ -1,0 +1,1207 @@
+﻿/************
+
+	Framework CSS
+	
+************/
+html, body {/* Required to set a maximum width to make the sidebar look good. Do NOT change. */
+	width: 100%;
+	min-width: 920px;
+}
+body {
+	font-size: 14px;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: Lucida Grande, Arial, sans-serif;
+	/*background-color: #f5f3f4 !important;*/
+	/* Background on body to force the sidebar to the bottom of the screen. */
+	background: #f5f3f4 url(sidebar_bg.png) repeat-y 2% top !important;
+	background-size: 28% auto !important;/* Set background here for optimal resizing */
+}
+a {
+	color: #b17269;
+}
+a:hover {
+	text-decoration: underline;
+}
+div.floatholder {
+	width: 100%;
+	min-width: 920px;
+	min-height: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	/* Overflow twice for RH editor compatibility */
+	overflow: visible;
+	overflow: hidden;
+}
+div.sidebar {
+	width: 27.9%;
+	float: left;
+	height: 100%;
+	padding: 0;
+	margin: 0 0 0 1.5%;
+}
+div.sidebarhome {
+	width: 100%;
+	text-align: center;
+	margin: 35pt 0 15pt;
+	background: transparent;
+	padding-bottom: 5px;
+}
+div.sidebarhome img {
+	border: none;
+}
+div.sidebarsearch {
+	width: 100%;
+	min-height: 50pt;
+	text-align: center;
+	margin: 10pt 0 5pt;
+	
+	background: transparent;
+	
+	background-color: #B17269;
+	background-image: linear-gradient(bottom, #914b49 17%, #b17269 58%);
+	background-image: -o-linear-gradient(bottom, #914b49 17%, #b17269 58%);
+	background-image: -moz-linear-gradient(bottom, #914b49 17%, #b17269 58%);
+	background-image: -webkit-linear-gradient(bottom, #914b49 17%, #b17269 58%);
+	background-image: -ms-linear-gradient(bottom, #914b49 17%, #b17269 58%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.17, #91b449),
+		color-stop(0.58, #9b17269)
+	);
+}
+div.sidebartoc {
+	width: 100%;
+	text-align: center;
+	margin: 25pt 0 5pt;
+	background: transparent;
+	padding-bottom: 15px;
+}
+div.contentholder {
+	width: 68%;
+	float: right;
+	height: 100%;
+	position: relative;
+	margin: 0 1.5% 0 0;
+}
+div.poweredby {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	padding: 15pt 0 10pt;
+}
+div.poweredby a {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+div.poweredby a:hover {
+	text-decoration: underline;
+}
+div.header {
+	margin: 0 5%;
+    width: 90%;
+	height: 45pt;
+	overflow: visible;
+	padding: 0;
+}
+div.logo {
+	float: left;
+	width: 138px;
+	height: 131px;
+	text-align: left;
+	padding-top: 15px;
+	margin: 0;
+}
+div.logo img {
+	border: none;
+}
+div.title {
+	float: right;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 24pt;
+	margin-top: 55pt;
+	margin-right: 5%;
+	color: #b17269;
+}
+div.content {
+	clear: both;
+	width: 90%;
+	margin: 0 5%;
+}
+div.contenttop {
+	width: 100%;
+	margin: 0 0 10pt;
+	height: 40px;
+	overflow: visible;
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	background-color: #d0d0d0;
+	background-image: linear-gradient(bottom, #D0D0D0 9%, #EAEAEA 55%);
+	background-image: -o-linear-gradient(bottom, #D0D0D0 9%, #EAEAEA 55%);
+	background-image: -moz-linear-gradient(bottom, #D0D0D0 9%, #EAEAEA 55%);
+	background-image: -webkit-linear-gradient(bottom, #D0D0D0 9%, #EAEAEA 55%);
+	background-image: -ms-linear-gradient(bottom, #D0D0D0 9%, #EAEAEA 55%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.09, #D0D0D0),
+		color-stop(0.55, #EAEAEA)
+	);
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+table.contenttoptable {
+	width: 90%;
+	margin: 0 5%;
+	height: 40px;
+}
+table.contenttoptable td.left {
+	height: 40px;
+	vertical-align: middle;
+}
+table.contenttoptable td.right {
+	height: 40px;
+	vertical-align: middle;
+	text-align: right;
+}
+/******
+
+	Framework print
+
+******/
+
+@media print {
+	body {
+		background: #fff !important;
+	}
+	div.floatholder {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	div.sidebar {
+		display: none;
+	}
+	div.contentholder {
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	div.content {
+		width: 100% !important;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	div.contenttop {
+		display: none;
+	}
+	div.contenttopic {
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		border: none !important;
+	}
+	div.header {
+		display: none;
+	}
+	div.poweredby {
+		display: none;
+	}
+}
+
+/****
+	
+	Topic contents
+	
+****/
+div.contenttopic {
+	clear: both;
+	margin: 15pt 0 0;
+	width: 100%;
+	border: 1px solid #c4c4c4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #fff;
+	min-height: 200pt;
+}
+
+/****
+	
+	Home page
+	
+****/
+div.contenttopmiddlewelcome {
+	height: 40px;
+	width: 95%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+	line-height: 40px;
+	font-size: 20px;
+	margin: 0 2.5%;
+}
+div.welcometext {
+	width: 95%;
+	margin: 5pt 2.5%;
+}
+div.featured {
+	width: 90%;
+	margin: 25pt 5%;
+	background: #fff;
+	border: 1px solid #c4c4c4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+table.featuredtable {
+	border-collapse: collapse;
+	width: 90%;
+	margin: 5%;
+}
+table.featuredtable tr.featured {
+
+}
+
+table.featuredtable  tr.featured td {
+	width: 25%;
+	text-transform: uppercase;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 3pt 0;
+	background: #b17269;
+	color: #fff;
+	text-align: center;
+}
+table.featuredtable tr.description {
+}
+
+table.featuredtable  tr.description td {
+	padding: 3pt 0;
+	width: 25%;
+}
+/*************
+	
+	CSS for widgets
+
+************/
+* {
+	outline-style: none;
+}
+
+/****** Topic ******/
+div.wTopic {
+	/* No position attributes allowed */
+	width: 95%;
+	margin: 5pt 2.5%;
+}
+
+/****** Glossary ******/
+div.wGlossary {/* Main holder div */
+	/* No position attributes allowed */
+	font-size: 11pt;
+}
+input.wGloFilter {/* Filter box */
+	float: right;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #c4c4c4;
+	padding: 3px 10px;
+	max-width: 80%;
+}
+div.wGloTerm {/* Glossary term */
+	cursor: pointer;
+	color: inherit;
+}
+div.wGloTermHover {/* Glossary term hover */
+	cursor: pointer;
+	text-decoration: underline;
+	color: inherit;
+}
+div.wGloTermSelected {/* Glossary term selected */
+	cursor: pointer;
+	color: inherit;
+}
+span.wGloTermText {/* Glossary term text */
+	
+}
+div.wGloDefinition {/* Glossary definition */
+	margin-left: 15pt;
+	margin-bottom: 8pt;
+	font-size: 10pt;
+	color: #000;
+}
+div.wGloDefinitionHover {/* Glossary defintion holder */
+	margin-left: 15pt;
+	margin-bottom: 8pt;
+	font-size: 10pt;
+	color: #000;
+}
+span.wGloDefinitionText {/* Definition text */
+	
+}
+div.wGloAlphabet {/* Category (letter or sign) */
+	clear: both;
+	font-size: 13pt;
+	border-bottom: 1px dashed #9ab3b0;
+	margin: 8pt 0;
+	color: #000;
+}
+span.wGloAlphabetText {/* Alphabet text */
+	
+}
+
+/****** Index ******/
+div.wIndex {/* Main index holder */
+	/* No position attributes allowed */
+	font-size: 11pt;
+}
+input.wIdxFilter {/* Index filter input */
+	float: right;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #c4c4c4;
+	padding: 3px 10px;
+	max-width: 80%;
+}
+div.wIdxKeyword {/* Index keyword */
+	cursor: pointer;
+	color: #914b49;
+}
+div.wIdxKeywordHover {/* Index keyword hover */
+	cursor: pointer;
+	color: #914b49;
+}
+span.wIdxKeywordText {/* Index keyword text */
+
+}
+div.wIdxChildBlock {/* Index child block */
+	cursor: pointer;
+	margin-left: 15pt;
+}
+span.wIdxLinkText {/* Index link entry */
+	color: #914b49;
+}
+span.wIdxLinkText:hover {
+	text-decoration: underline;
+}
+div.wIdxAlphabet {/* Category (letter or sign) */
+	clear: both;
+	font-size: 13pt;
+	border-bottom: 1px dashed #9ab3b0;
+	margin: 8pt 0;
+	color: #000;
+}
+span.wIdxAlphabetText {/* Alphabet text */
+	
+}
+
+
+/****** TOC Tree ******/
+div.wTOCTreePage {/* Main tree holder */
+	/* No position attributes allowed */
+}
+div.wTOCTreeCloseBook {/* Closed book */
+	cursor: pointer;
+	color: #000;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeCloseBookHover {/* Closed book hover */
+	text-decoration: underline;
+	cursor: pointer;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeCloseBookSelected {/* Closed book selected */
+	cursor: pointer;
+	color: #b17269;
+	min-height: 20px;
+	margin-top: 6px;
+}
+span.wTOCTreeCloseBookText {/* Closed book text */
+	margin-left: 5px;
+}
+img.wTOCTreeCloseBookIcon {/* Closed book icon */
+	border: none;
+	vertical-align: middle;
+}
+div.wTOCTreeOpenBook {/* Open book */
+	cursor: pointer;
+	color: #000;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeOpenBookHover {/* Open book hover */
+	text-decoration: underline;
+	cursor: pointer;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeOpenBookSelected {/* Open book selected */
+	cursor: pointer;
+	color: #b17269;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeOpenBookChildBlock {/* Open book child block */
+	margin-left: 15pt;
+	cursor: pointer;
+}
+span.wTOCTreeOpenBookText {/* Open book text */
+	margin-left: 5px;
+}
+img.wTOCTreeOpenBookIcon {/* Open book image */
+	border: none;
+	vertical-align: middle;
+}
+div.wTOCTreePage {/* TOC page */
+	cursor: pointer;
+	color: #000;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreePageHover {/* TOC page hover */
+	text-decoration: underline;
+	cursor: pointer;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreePageSelected {/* TOC page selected */
+	cursor: pointer;
+	color: #b17269;
+	min-height: 20px;
+	margin-top: 6px;
+}
+span.wTOCTreePageText {/* TOC page text */
+	margin-left: 5px;
+}
+img.wTOCTreePageIcon {/* TOC page icon */
+	border: none;
+	vertical-align: middle;
+}
+div.wTOCTreeLink {/* TOC URL */
+	cursor: pointer;
+	color: #000;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeLinkHover {/* TOC URL hover */
+	text-decoration: underline;
+	cursor: pointer;
+	min-height: 20px;
+	margin-top: 6px;
+}
+div.wTOCTreeLinkSelected {/* TOC URL selected */
+	cursor: pointer;
+	color: #b17269;
+	min-height: 20px;
+	margin-top: 6px;
+}
+span.wTOCTreeLinkText {/* TOC URL text */
+	margin-left: 5px;
+}
+img.wTOCTreeLinkIcon {/* TOC URL image */
+	border: none;
+	vertical-align: middle;
+}
+
+/****** TOC expanding node ******/
+div.wTOCNode {/* Main TOC holder */
+	/* No position attributes allowed */
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	text-align: center;
+}
+div.wTOCNodeCloseBook {/* Closed book */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	width: 100%;
+}
+div.wTOCNodeCloseBookHover {/* Closed book hover */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+div.wTOCNodeCloseBookSelected {/* Closed book selected */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+span.wTOCNodeCloseBookText {/* Closed book text */
+	text-decoration: none;
+}
+img.wTOCNodeCloseBookIcon {/* Closed book icon */
+	border: none;
+	float: right;
+}
+div.wTOCNodeOpenBook {/* Open book */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	width: 100%;
+}
+div.wTOCNodeOpenBookHover {/* Open book hover */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+div.wTOCNodeOpenBookSelected {/* Open book selected */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+span.wTOCNodeOpenBookText {/* Open book text */
+	text-decoration: none;
+}
+img.wTOCNodeOpenBookIcon { /* Open book icon */
+	border: none;
+	float: right;
+}
+div.wTOCNodePage {/* TOC page */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	width: 100%;
+}
+div.wTOCNodePageHover {/* TOC page hover */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+div.wTOCNodePageSelected {/* TOC page selected */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+span.wTOCNodePageText {/* TOC page text */
+	text-decoration: none;
+}
+img.wTOCNodePageIcon {/* TOC page image */
+	border: none;
+	float: right;
+}
+div.wTOCNodeLink {/* TOC URL */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	width: 100%;
+}
+div.wTOCNodeLinkHover {/* TOC URL hover */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+div.wTOCNodeLinkSelected {/* TOC URL selected */
+	cursor: pointer;
+	border: 1px solid #b17269;
+	height:24px;
+    line-height:24px;
+	color: #fff;
+	background-color: #b17269;
+	width: 100%;
+}
+span.wTOCNodeLinkText {/* TOC URL text */
+	text-decoration: none;
+}
+img.wTOCNodeLinkIcon {/* TOC URL image */
+	border: none;
+	float: right;
+}
+div.wTOCNodeUp {/* TOC up */
+	border: none;
+	height:24px;
+    line-height:24px;
+	text-align: left;
+	width: 100%;
+}
+div.wTOCNodeUpHover {/* TOC up hover */
+	border: none;
+	cursor: pointer;
+	height:24px;
+    line-height:24px;
+	text-align: left;
+	width: 100%;
+}
+span.wTOCNodeUpText {/* TOC up text */
+	text-decoration: none;
+}
+img.wTOCNodeUpIcon {/* TOC up image */
+	border: none;
+	float: left;
+}
+
+
+/****** Print link ******/
+a.wPrintLink {
+	background-color: transparent;
+}
+
+/****** Print button ******/
+a.wPrintButton {
+	margin-right: 8pt;
+	background-color: transparent;
+}
+img.wPrintButton {
+	border: none;
+}
+
+/****** Browse sequence links ******/
+a.wBSBackLink {
+	margin-right: 8pt;
+	background-color: transparent;
+}
+a.wBSNextLink {
+	margin-right: 8pt;
+	background-color: transparent;
+}
+
+/****** Browse sequence buttons ******/
+a.wBSBackButton {
+	margin-right: 8pt;
+	background-color: transparent;
+}
+img.wBSBackButton {
+	border: none;
+}
+a.wBSNextButton {
+	margin-right: 8pt;
+	background-color: transparent;
+}
+img.wBSNextButton {
+	border: none;
+}
+
+/****** Search results area ******/
+div.wSearchResults {
+	/* No position attributes allowed */
+	clear: both;
+	margin: 15pt 0;
+	width: 100%;
+}
+div.wSearchResultSettings {
+	height: auto;
+	overflow: visible;
+	overflow: hidden;
+	width: 90%;
+	margin: 0 5% 10pt;
+}
+div.wSearchHighlight {
+	display: inline;
+	float: left;
+	position: relative;
+	top: -2px;
+}
+input.wSearchHighlight {
+	position: relative;
+	top: 0.75pt;
+}
+span.wSearchHighlight {
+	margin-left: 6pt;
+}
+div.wSearchCount {
+	float: right;
+}
+select.wSearchCount {
+	float: right;
+}
+span.wSearchCount {
+	float: right;
+	margin-right: 6pt;
+}
+div.wSearchMessage {
+	clear: both;	
+	width: 90%;
+	border-bottom: 1px solid #b17269;
+	padding-bottom: 2pt;
+	margin: 0 5%;
+}
+span.wSearchMessage {
+	font-weight: bold;
+}
+div.wSearchResultItemsBlock {
+	width: 90%;
+	margin: 5pt 5% 0;
+}
+div.wSearchResultItem {
+	margin-top: 10pt;
+	width: 90%;
+	margin-left: 5%;
+}
+div.wSearchResultTitle {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #045abb;
+}
+div.wSearchResultTitleHover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #045abb;
+}
+span.wSearchURL {
+	color: #c4c4c4;
+}
+span.wSearchContext {
+
+}
+div.wSearchNavigation {
+	margin-top: 10pt;
+	border-top: 1px solid #b17269;
+	padding-top: 5pt;
+	padding-left: 5%;
+	width: 95%;
+}
+div.wSearchBack {
+	float:left;
+    margin-right:5pt;
+}
+a.wSearchBack {
+	text-decoration:none;
+	margin:0;
+	padding: 0 0 0 18px;
+	height: 100%;
+	min-height: 22px;
+	width: 1px;
+	color: transparent;
+	background: transparent url(searchPrev.png) no-repeat center center;
+}
+a.wSearchBack:hover {
+	background-image: url(searchPrevHover.png);
+}
+div.wSearchNext {
+	float:left;
+    margin-right:5pt;
+}
+a.wSearchNext {
+	text-decoration:none;
+	margin:0;
+	padding: 0 0 0 18px;
+	height: 100%;
+	min-height: 22px;
+	width: 1px;
+	color: transparent;
+	background: transparent url(searchNext.png) no-repeat center center;
+}
+a.wSearchNext:hover {
+	background-image: url(searchNextHover.png);
+}
+div.wSearchPageNumbers {
+	float:left;
+	margin-right:5pt;
+	margin-top:0;
+}
+li.wSearchPageNumberSelected {
+	margin-right:3pt;
+}
+li.wSearchPageNumberLink {
+    margin-right:3pt;
+    color:#045abb;
+}
+span.wSearchPageNumberSelected {
+
+}
+a.wSearchPageNumberLink {
+	background-color: transparent;
+}
+
+/****** Search results area for small screens ******/
+
+div.wSearchResultsSmallScr {
+	/* No position attributes allowed */
+	margin: 15pt 0;
+	width: 100%;
+}
+div.wSearchResultSettingsSmallScr {
+	height: auto;
+	overflow: visible;
+	overflow: hidden;
+	width: 90%;
+	margin: 0 5%;
+	position: relative;
+	left: -40px;
+	top: 4px;
+}
+div.wSearchHighlightSmallScr {
+	display: inline;
+	float: left;
+}
+input.wSearchHighlightSmallScr {
+	display: inline;
+	float: left;
+	position: relative;
+	top: -2px;
+}
+span.wSearchHighlightSmallScr {
+	margin-left: 6pt;
+}
+div.wSearchCountSmallScr {
+	float: right;
+}
+div.wSearchCountComboSmallScr {
+	float: right;
+}
+select.wSearchCountSmallScr {
+	float: right;
+	margin-right: 6pt;
+}
+div.wSearchCountMsgSmallScr {
+
+}
+span.wSearchCountSmallScr {
+
+}
+div.wSearchMessageSmallScr {
+	margin-top: 15pt;
+	margin-left: 5%;
+	width: 90%;
+	border-bottom: 1px solid #b17269;
+	padding-bottom: 2pt;
+}
+span.wSearchMessageSmallScr {
+
+}
+div.wSearchResultItemsBlockSmallScr {
+	margin-left: 5%;
+	margin-top: 5pt;
+	width: 80%;
+}
+div.wSearchResultItemSmallScr {
+	margin-top: 10pt;
+}
+div.wSearchResultTitleSmallScr {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #045abb;
+}
+div.wSearchResultTitleHoverSmallScr {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #045abb;
+}
+span.wSearchURLSmallScr {
+	color: #c4c4c4;
+}
+span.wSearchContextSmallScr {
+
+}
+div.wSearchBackSmallScr {
+	float:left;
+    margin-right:5pt;
+}
+a.wSearchBackSmallScr {
+	text-decoration:none;
+	margin:0;
+	padding: 0 0 0 18px;
+	height: 100%;
+	min-height: 22px;
+	width: 1px;
+	color: transparent;
+	background: transparent url(searchPrev.png) no-repeat center center;
+}
+a.wSearchBackSmallScr:hover {
+	background-image: transparent url(searchPrevHover.png);
+}
+div.wSearchNextSmallScr {
+	float:left;
+    margin-right:5pt;
+}
+a.wSearchNextSmallScr {
+	text-decoration:none;
+	margin:0;
+	padding: 0 0 0 18;
+	height: 100%;
+	min-height: 22px;
+	width: 1px;
+	color: transparent;
+	background: transparent url(searchNext.png) no-repeat center center;
+}
+a.wSearchNextSmallScr:hover {
+	background-image: transparent url(searchNextHover.png);
+}
+div.wSearchPageNumbersSmallScr {
+	float:left;
+	margin-right:5pt;
+	margin-top:0;
+}
+li.wSearchPageNumberSelectedSmallScr{
+	margin-right:3pt;
+}
+li.wSearchPageNumberLinkSmallScr {
+    margin-right:3pt;
+    color:#045abb;
+}
+li.wSearchPageNumberLinkSmallScr:hover {
+	text-decoration:underline;
+}
+span.wSearchPageNumberSelectedSmallScr {
+
+}
+a.wSearchPageNumberLinkSmallScr {
+	background-color: transparent;
+}
+
+
+/****** Show/Hide ******/
+a.wShowHide {
+	background-color: transparent;
+}
+
+/****** Show/Hide toggle ******/
+a.wShow {
+	background-color: transparent;
+}
+a.wHide {
+	background-color: transparent;
+}
+
+/****** Project title ******/
+span.wProjTitle {
+
+}
+
+/****** Search options (with AND) ******/
+div.wSearchField {
+	display: block;
+	width: 100%;
+	min-width: 160px;
+	height: 50%;
+	white-space: nowrap;
+	margin: auto;
+	padding-top: 15pt;
+}
+input.wSearchField {
+	border: none;
+	padding: 3px 35px 3px 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+a.wSearchLink {
+	position: relative;
+	left: -20px;
+	top: 2px;
+}
+img.wSearchLink {
+	border: none;
+}
+input.wSearchAND {
+	position: relative;
+	top: 2pt;
+}
+span.wSearchAND {
+	position: relative;
+	top: 0.5pt;
+	left: 3pt;
+	color: #fff;
+}
+
+/****** Search options ******/
+div.wSearchOptions {
+	/* No position attributes allowed */
+	
+}
+/****** Tabbed Panel - Horizontal (empty and not empty) ******/
+div.wTabbedPanel {
+	/* No position attributes allowed */
+	width: 100%;
+}
+ul.wTabGroup {
+	background-color: #b17269;
+	font-size: 12pt;
+	padding:0;
+	text-align: center;
+	height: auto;
+	padding: 0 0 5px 0;
+	border: none;
+	border: 3px solid #b17269;
+}
+li.wTab {
+	padding: 0 8pt;
+	color: #000;
+	cursor: pointer;
+	margin: 0 5pt;
+	border-bottom: 3px d #b17269;
+	white-space: nowrap;
+}
+li.wTabHover {
+	padding: 0 8pt;
+	color: #000;
+	cursor: pointer;
+	margin: 0 5pt;
+	border-bottom: 3px double #b17269;
+	white-space: nowrap;
+}
+li.wTabSelected {
+	padding: 0 8pt;
+	color: #fff;
+	margin: 0 5pt;
+	border-bottom: 3px double #fff;
+	white-space: nowrap;
+}
+span.wTabText {
+	
+}
+div.wTabContentGroup {
+	
+}
+div.wTabContent {
+	margin: 15pt 5% 0;
+	padding: 0 0 15pt 0;
+	width: 90%;
+	overflow-y: visible;
+	overflow-x: auto;
+}
+
+/****** Tabbed pannel - Vertical (empty and not empty) ******/
+div.wVTabbedPanel {
+	/* No position attributes allowed */
+	width: 100%;
+	text-align: left;
+}
+ul.wVTabGroup {
+	font-size: 12pt;
+	width: 100%;
+	text-align: left;
+	list-style: none;
+	margin: 15pt 0 0;
+	padding: 0;
+	border-top: 1px solid #c4c4c4;
+}
+li.wVTab {
+	white-space: nowrap;
+	margin: 0;	
+	color: #000;
+	border-bottom: 1px solid #c4c4c4;
+	background: #eaeaea;
+	width: 90%;
+	padding: 3pt 5%;
+}
+li.wVTabHover {
+	cursor: pointer;
+	white-space: nowrap;
+	margin: 0;
+	width: 90%;
+	padding: 3pt 5%;
+	color: #000;
+	border-bottom: 1px solid #c4c4c4;
+	background: #eaeaea;
+}
+li.wVTabSelected {
+	white-space: nowrap;
+	margin: 0;
+	width: 90%;
+	padding: 3pt 5%;
+	color: #fff;
+	border-bottom: 1px solid #c4c4c4;
+	background: transparent;
+	
+	background-color: #B17269;
+}
+span.wVTabText {
+
+}
+div.wVTabContentGroup {
+	overflow: auto;
+}
+div.wVTabContent {
+	margin: 10pt 15pt;
+}
+
+/****** Loading ******/
+div.wLoadingIcon {
+	text-align: center;
+	width: 100%;
+}
+div.loadingicon {
+
+}
+img.wLoadingIcon {
+	border: none;
+}
+div.wLoadingText {
+	text-align: center;
+	width: 100%;
+}
+div.loadingtext {
+
+}
+
+/****** Internal widget styles ******/
+.unclickable {/*Modifies the cursor on hover to default*/
+	cursor: default;
+}
+.handcursor {/*Modifies the cursor on hover to hand*/
+	cursor: pointer;
+	cursor: hand;
+}
+.unselectable {/*Modifies the content unselectable by mouse*/
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+div.treeitem {/*Used by TOC Tree widget*/
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+li.hlist {/*Used to display horizontal list of page numbers in search results */
+	display: inline;
+}
+a.nolink {/*Used to remove default styling of a hyperlink*/
+	text-decoration: none;
+	color: #914b49;
+	background-color: transparent;
+}
+a.nolink:hover {
+	background-color: transparent;
+}

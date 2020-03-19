@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/EmployeeCare3.toc</path>
+      <name>EmployeeCare3</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/EmployeeCare3.glo</path>
+      <name>EmployeeCare3</name>
+    </glossary>
+    <conditional>
+      <name>Exclude_from_all_filter_options</name>
+      <path>../expressions/Exclude_from_all_filter_options.expn</path>
+    </conditional>
+    <variable>
+      <name>Dynamic Filtering</name>
+      <path>../variablesets/Dynamic Filtering.var</path>
+    </variable>
+    <brs type="array">
+      <brsitem>
+        <name>HR_Policies_and_Procedures</name>
+        <path>../browsesequence/HR_Policies_and_Procedures.brs</path>
+      </brsitem>
+    </brs>
+    <mapFiles type="array"></mapFiles>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+  </content>
+  <outputPath>//Mac/Home/Documents/My RoboHelp Projects/outputs/EmployeeCare3/Mobile_App</outputPath>
+  <starterPage>index.html</starterPage>
+  <filter>
+    <name>Mobile App</name>
+    <path>../filters/Mobile App.filter</path>
+  </filter>
+  <search>
+    <context type="boolean">true</context>
+    <contextLimit>100</contextLimit>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <suggestion type="boolean">true</suggestion>
+    <fuzzy type="boolean">true</fuzzy>
+    <glossary type="boolean">true</glossary>
+    <maxSearchresults type="number">20</maxSearchresults>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <skin>
+    <name>Azure_Blue</name>
+    <path>../skins/Azure_Blue/mobileapp.skn</path>
+  </skin>
+  <name>Mobile App</name>
+  <type>mobileapp</type>
+  <title>EmployeeCare3</title>
+  <defaultTopic>
+    <name>Employee_Care/Introduction.htm</name>
+    <path>../../contents/Employee_Care/Introduction.htm</path>
+  </defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+</preset>

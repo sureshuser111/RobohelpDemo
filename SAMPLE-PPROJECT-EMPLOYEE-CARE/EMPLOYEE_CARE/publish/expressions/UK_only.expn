@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Others" value="UK" flag="Include" op="and"></tag>
+<tag name="Others" value="not" flag="Include" op="us"></tag>
+<tag name="Others" value="and" flag="Include" op="not"></tag>
+<tag name="Others" value="Canada" flag="Include" op="AND"></tag></group>    </expr>

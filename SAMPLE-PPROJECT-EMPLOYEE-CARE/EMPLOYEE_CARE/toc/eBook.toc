@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <title>Table of Contents</title>
+  <book navtitle="Human Resources Policies" format="html" processing-role="normal">
+    <page href="../contents/Employee_Care_eBook/Introduction_eBook.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care_eBook/Attendance_e_Book.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care_eBook/Health_and_Safety_eBook.htm" format="html" processing-role="normal"></page>
+  </book>
+</map>

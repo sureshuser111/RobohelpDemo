@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="condition-tags" content="Others:AuthorContent"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Printed Documentation Output</title>
+<link rel="StyleSheet" href="../../assets/css/empcare.css" type="text/css"/>
+</head>
+
+<body>
+<h1>Printed Documentation Output</h1>
+<p class="EmphasisSlate">Notwithstanding the trend to online information, 
+ many users still require printed documentation. A major change introduced 
+ in Adobe RoboHelp 11 was the ability to include your own headers and footers 
+ in the printed outputs. You can define which sections have headers and 
+ footers. Each section can be different and you can customize the formatting.</p>
+<p>In <a href="../READ_FIRST.htm" id="a1">About Employee Care</a> it is 
+ explained that whilst the online help is for the US audience, printed 
+ documentation is required for the UK and Canadian users. This sample project 
+ shows how the different content is created to allow those documents to 
+ be produced, in addition to a printed document for the US users.</p>
+<h2>General Settings</h2>
+<p>By applying build tags to content, different text will be entered for 
+ each of the three countries. When generating any output, the build expression 
+ will define what <span>text is included and what is excluded.</span> See 
+ the text options in this first image and see the build expression in the 
+ second image.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/buildtags.png" alt="" style="border: none;" border="0"/></p>
+<p>Since Adobe RoboHelp 11 you can generate multiple documents to the same 
+ folder provided, of course, that they have different file names. Also 
+ any links you have in your topics to popups will appear in your printed 
+ documentation, provided the target topic is in the printed document.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_01_2015.png" alt="" style="border: none;" border="0"/></p>
+<p class="Normal-Single">Note how much easier it is to select the build 
+ expression. In older versions you would have seen the expression and had 
+ to work out what would get included. The name makes it obvious. </p>
+<p class="Normal-Single"> </p>
+<p class="Normal-Single"><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_01b_2015.png" alt="" style="border: none;" border="0"/></p>
+<p class="Normal-Single"> </p>
+<h3>Headers and Footers</h3>
+<p>Adding your own headers and footers can now be achieved using Master 
+ Pages that you set up for the purpose. You can use existing Master Pages 
+ but it is likely they will not quite meet your requirements.</p>
+<ol class="RoundSquare"><li>You create 
+ a Master Page that has the headers and footers that you want. The Master 
+ Page Editor has some icons to add pre-configured options such as page 
+ numbers and chapter names. You can click Insert &gt; Fields to add other 
+ field level information such as the project title and / or date. You can 
+ apply formatting to any part of the header and footer. See <a href="../Features/Master_Pages.htm">Master 
+ Page Enhancements</a>.</li><li>In the 
+ Header / Footer dropdown shown above, you can choose whichever Master 
+ Page you want. By default that will be applied to every page in your printed 
+ document.</li><li>You may 
+ want to have different headers and footer in different sections or you 
+ may want to only have headers and footers in the content section, with 
+ nothing on the title page, the table of contents and suchlike. Click the 
+ Multiple Header/Footer button to access the dialog below where you can 
+ define your options.</li></ol>
+
+
+<p class="ListSpacing">In this project the Master Pages for use with the 
+ Printed Documentation Layouts have been set up with different options. 
+ Note how the US Master Pages include different odd and even pages so that 
+ the image is always on the outside when printing double sided.</p>
+<p class="Normal-Single"> </p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_02.png" alt="" style="border: none;" border="0"/></p>
+<p>Other Topics are topics added in the Section Layout as described below.</p>
+<p>Word Documents refers to any Word documents that you add in the Section 
+ Layout.</p>
+<h3>Advanced Options</h3>
+<p>The Advanced button allows you to set a few more options.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_03.png" alt="" style="border: none;" border="0"/></p>
+<h2>Content Settings</h2>
+<p>When you first set up the content for your printed document, you will 
+ see the Table of Contents you selected in both panes below and the books 
+ will have the turquoise highlighting. In the Chapter Layout pane you can 
+ change the order and you can delete topics if required. When you delete 
+ topics, the turquoise highlighting will be removed to show that not all 
+ its topics will be in the printed document.</p>
+<p>Any changes you make later to the Table of Contents selected in the 
+ General Settings will be made to the pane on the left. Note however that 
+ the Chapter Layout will not reflect those changes. That is deliberate 
+ as you may not want the printed document to include everything that is 
+ in the Table of Contents.</p>
+<p><img src="../../assets/images/tip.gif" alt="" style="border: none;" border="0"/></p>
+<p>The quick way to keep the two panes in sync is to click the left facing 
+ double chevron and then click the right facing double chevron.</p>
+<p>The TOC dropdown also allows you to select topics not in the Table of 
+ Contents. If you add them here, they will have the same headers and footers 
+ as other topics in the Chapter Layout.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_04.png" alt="" style="border: none;" border="0"/></p>
+<h2>Section Layout Settings</h2>
+<p>This page shows the default structure of your printed document. You 
+ can rearrange the order and remove sections as well as adding other Word 
+ documents into the layout.</p>
+<p>You can also add topics to the section. You might want to do this to 
+ add a topic right at the end of the document about how to contact your 
+ organization, rather than it being part of the Chapter Layout.</p>
+<p>The default title page can be deleted and you can substitute a cover 
+ page that  you have created in Word or Adobe RoboHelp for the purpose. 
+ That&#39;s especially useful if you have to apply a corporate design. See 
+ the Printed Documentation US Century Gothic layout which uses a different 
+ cover page and a different Word template.</p>
+<p><img src="../../assets/images/tip.gif" alt="" style="border: none;" border="0"/></p>
+<p>If you do design your own cover page in Word and you are going to apply 
+ a Word template to the output (as described below in Appearance Settings), 
+ it works best if both have been created from the same Word template. If 
+ they are not from the same template, then do at least make sure the two 
+ have the same settings for Word&#39;s Normal style. Otherwise you may get 
+ some additional line spacing on the cover that needs to be removed.</p>
+<p>In this sample project there are cover pages for both Letter Size paper 
+ and A4 with different fonts and each of these can be mapped to a matched 
+ Style Mapping template. Try creating different documents with different 
+ cover pages and templates. The necessary files are in the root of the 
+ project. They have also been copied to the Assets folder and you can import 
+ them into your own project if they suit your needs.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_05.png" alt="" style="border: none;" border="0"/></p>
+<h2>Appearance Settings</h2>
+<p>The final page before you generate your document defines the appearance 
+ settings.</p>
+<p>The options are to choose a Microsoft Word Template or a CSS Stylesheet. 
+ Neither one is better than the other, it is dependent on various factors.</p>
+<ol class="RoundSquare"><li style="counter-reset: item1 3;">You may 
+ already have a corporate Word template that you are required to use.</li><li>You may 
+ already want the same styles as in your project but with a green theme 
+ rather than a blue theme. It might be easier to create that by tweaking 
+ your CSS.</li></ol>
+
+<p>In this example, the mapping is to a Microsoft Word template to show 
+ how tables and multi-level list styles can be mapped using a Microsoft 
+ Word template.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_06.png" alt="" style="border: none;" border="0"/></p>
+<p>If you want to design your own cover pages, you need to set the paper 
+ size, margins and so one to the same settings as the Adobe RoboHelp Style 
+ Mapping templates. In the Assets folder, you will find two blank templates, 
+ one set to Letter Size and US English and one set to A4 and UK English.</p>
+<p><img src="../../assets/images/tip.gif" alt="" style="border: none;" border="0"/></p>
+<p>You may want to break topics at various points in Word. Set up the customization 
+ below with your preferred keyboard sequence. CTRL + Q is useful as you 
+ can thumb CTRL and finger Q easily while you scroll through. Click anywhere 
+ in the paragraph you want to start on the next page and use the command. 
+ It also works nicely in the first paragraph in the first column of a table 
+ to split it at that point.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/print_tip.png" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+
+
+</body></html>

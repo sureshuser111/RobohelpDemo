@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="condition-tags" content="Others:AuthorContent"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Dynamic ContentFiltering</title>
+<link rel="StyleSheet" href="../../assets/css/empcare.css" type="text/css"/>
+</head>
+
+<body>
+<h1>Dynamic Content Filtering</h1>
+<p>Responsive layouts were introduced in RoboHelp 11 to allow your content 
+ to be viewed with ease on desktops, tablets and smartphones. The appearance 
+ adapts to suit the device, RoboHelp takes care of that. Now Adobe RoboHelp 
+ (2015 release) adds new layouts with something extra for your end-users, 
+ dynamic content filtering.</p>
+<ul style="list-style: disc;">
+	<li><p class="ListSpacing">You provide the filter options to suit the 
+	 requirement, be that geographical regions, trade specialization, equipment 
+	 type and so on.</p></li>
+	<li><p class="ListSpacing">The end-user chooses what they want to see 
+	 rather than having to wade through everything you have provided.</p></li>
+</ul>
+<p>You can set this up so that the user can select just one of the options 
+ or so that they can multi-pick.</p>
+<p>If you have used Content Categories (Dynamic User-Centric Content) in 
+ an earlier version of RoboHelp you will welcome the greater options Dynamic 
+ Content Filtering brings, so will your end-users. There are some differences 
+ in the setup and these are described below.</p>
+<h2>How does it work?</h2>
+<p>To set up the content to work with Dynamic Content Filtering, you need 
+ to be familiar with the use of conditional build tags (CBTs) and build 
+ expressions. A CBT is applied to some text or an image or any part of 
+ the topic content so that you can create simple or complex build expressions 
+ to exclude or include that content when you generate an output.</p>
+<p>Dynamic Content Filtering allows you to use the CBTs and / or build 
+ expressions so that the end-user can choose what they want to see.</p>
+<h2>Example</h2>
+<h3>Objective</h3>
+<p>In Employee Care we want end-users to see content according to where 
+ they are based. This is shown in this table.</p>
+<div data-conref="../../assets/snippets/Content Filtering.hts"></div>
+<p> </p>
+<h3>Setup - Global exclusions</h3>
+<p>The first thing we need to do is exclude from the output any content 
+ that we do not want the end-users to see, no matter how they apply the 
+ filters that we make available. That is done in the Content configuration 
+ where you can see that we do not want any topics or content that has an 
+ eBookOnly, Print or AuthorContent tag applied.</p>
+<p>The Conditional Build Expression below excludes them from the output 
+ so we do not need to worry about them when we apply the filtering options.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/responsive05_2015.png" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+<h3>Setup - Filtering options</h3>
+<p>With the required content in the output, we now need to set up how it 
+ can be filtered. To do this the Use Dynamic Content Filter check-box is 
+ selected and the Customize button is then clicked.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/DF_ssl.png" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+<p>Clicking Customize displays this dialog.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/DF_filters.png" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+<p>Icon 1 allows us to set up groups, in this example we only want one, 
+ Country.</p>
+<p>Icon 2 displays the Tags and Expressions dialog that allows us to set 
+ up the options within that group.</p>
+<p>In this project we want to set up US, Canada and UK as the filtering 
+ options. As shown below, the dialog initially shows all the tags and expressions 
+ that have been set up in the project. In RoboHelp (2015 release) expressions 
+ can be named making it much easier to deal with those complex expressions 
+ where you had to stop and work out what each one did.</p>
+<p>The expression shown below is to keep certain content from this output 
+ and that was selected in the Content Settings dialog above. Here we want 
+ to create the filter options so we select Canada, UK and US.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/DF_tags_and_filters.png" alt="" style="border: none;" border="0"/></p>
+<p class="Normal-Single"> </p>
+<p>The title can be whatever you want so here we have used it to provide 
+ an instruction to end-users.</p>
+<p>As we only want end-users to select one country at a time, we leave 
+ the Allow Multiple Selection option unticked.</p>
+<p>The end result in the Dynamic Content Filter dialog will be as in the 
+ image below. By default RoboHelp will display the options selected in 
+ alphabetical order, here we have used the arrow keys to change the order 
+ and we have used a context menu to make US the default.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/DF_filters2.png" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+<h3>Output</h3>
+<p>When the end-user accesses the output they can click the filter icon 
+ and select from the options you have provided. In a different project 
+ you might want to provide further groups such as Region and so on.</p>
+<p><img src="../../assets/images/AUTHOR_INFO_READ_FIRST/Images/DF_output.png" alt="" style="border: none;" border="0"/></p>
+<h2>Complex Filtering</h2>
+<p>If you want to see a more sophisticated example of Dynamic Content Filtering, 
+ see the Travel the Whirls sample project.</p>
+<h2>Changing from Content Categories to Dynamic Content Filtering</h2>
+<p>If you have previously used Content Categories in WebHelp and now want 
+ to use Dynamic Content Filtering with a responsive layout in the same 
+ project, there are some considerations.</p>
+<ul style="list-style: disc;">
+	<li><p class="ListSpacing">If you used a single TOC or Index with tags 
+	 applied, you will be able to use that with Dynamic Content Filtering. 
+	 If you used a different TOC or Index for each category, you will need 
+	 to change to using a single TOC or Index with CBTs applied, as in 
+	 this sample project.</p></li>
+	<li><p class="ListSpacing">You can only use one glossary and it is 
+	 not possible to apply CBTs to it.</p></li>
+	<li><p class="ListSpacing">If you used variables only to allow quick 
+	 name changes so that each variable only had one value, that will work 
+	 with Dynamic Content Filtering. If you used variables so that each 
+	 instance could have a different value in different outputs, then you 
+	 will need to make some changes. <br/>
+	In this project there are outputs that require selection of a particular 
+	 variable set - for example in the Printed Outputs the US, Canada and 
+	 UK sets are required. For that reason a new Dynamic Content Filtering 
+	 set has been created for this project. To deal with the variables 
+	 where different values are required according the filtering option, 
+	 you will see that each value has been entered with a conditional build 
+	 tag applied.</p></li>
+</ul>
+<h2>RoboHelp 11 Responsive Layouts</h2>
+<p>The responsive layouts that shipped with RoboHelp 11 will not support 
+ Dynamic Content Filtering. You will need to change to one of the RoboHelp 
+ (2015 release) layouts.</p>
+
+
+</body></html>

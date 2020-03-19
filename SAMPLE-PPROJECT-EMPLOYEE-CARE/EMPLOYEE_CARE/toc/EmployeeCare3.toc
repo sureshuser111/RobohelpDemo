@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <title>Table of Contents</title>
+  <page href="../contents/Employee_Care/Introduction.htm" format="html" processing-role="normal"></page>
+  <book navtitle="For Authors" format="html" processing-role="normal">
+    <page navtitle="About Employee Care 3" href="../contents/AUTHOR_INFO_READ_FIRST/READ_FIRST.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/AUTHOR_INFO_READ_FIRST/About_RoboHelp_2015.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/AUTHOR_INFO_READ_FIRST/About_Rh_11.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Explore_Feature_and_Workflow_Topics_.htm" format="html" processing-role="normal"></page>
+    <page navtitle="The Employee Care 3 Outputs" href="../contents/AUTHOR_INFO_READ_FIRST/The_Employee_Care_Outputs.htm" format="html" processing-role="normal"></page>
+    <book navtitle="RoboHelp Features" format="html" processing-role="normal">
+      <page navtitle="Dynamic Content Filtering" href="../contents/AUTHOR_INFO_READ_FIRST/Features/Dynamic_Content_Filtering.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Content_Categories.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/New_Responsive_HTML5_Layouts.htm" format="html" processing-role="normal"></page>
+      <page navtitle="The New User Interface" href="../contents/AUTHOR_INFO_READ_FIRST/Features/The_User_Interface.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Creating_Mobile_Apps.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Embedded_Fonts_in_eBooks.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Find_and_Replace.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Search_Technique_Enhancements.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Adobe_Captivate_HTML5_Videos.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Word_and_FrameMaker_Docs.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/SharePoint_Integration.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Sharing_Topics_and_Other_Resources.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Acrobat_PDF_based_Review.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Master_Pages.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Scripts.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Snippets.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Features/Bits_and_Pieces.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Generating Help" format="html" processing-role="normal">
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/Responsive_HTML5_Output.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/Mobile_App_Output.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/Multiscreen_HTML5_Output.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/WebHelp_Output.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/Microsoft_HTML_Output_CHM.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/Printed_Documentation_Output.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/eBook_Output.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AUTHOR_INFO_READ_FIRST/Outputs/XML_Output.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="HR Policies and Procedures" format="html" processing-role="normal">
+    <page href="../contents/Employee_Care/HR_Policies/Attendance.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Company_Sick_Pay.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Dependants_Leave.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Disciplinary_Procedure.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Equal_Opportunities.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Flexible_Working.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Grievances.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Harassment.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Health_and_Safety.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Company Benefits" format="html" processing-role="normal">
+    <page href="../contents/Employee_Care/Benefits/Cars.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/Benefits/Healthcare.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Travel" format="html" processing-role="normal">
+    <page href="../contents/Employee_Care/Travel/Bookings.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/Travel/Expenses.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="New and Retiring Employees" format="html" processing-role="normal">
+    <page href="../contents/Employee_Care/HR_Policies/New Employee Checklist/New_Employee_Checklist.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Employee_Care/HR_Policies/Retiring_Employees.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Sales Training Video" format="html" processing-role="normal">
+    <page href="../contents/Employee_Care/HR_Policies/Sales_Staff_Video.htm" format="html" processing-role="normal"></page>
+  </book>
+</map>

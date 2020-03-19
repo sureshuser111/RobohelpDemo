@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/eBook.toc</path>
+      <name>eBook</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/eBook.glo</path>
+      <name>eBook</name>
+    </glossary>
+    <conditional>
+      <name>eBook_Content</name>
+      <path>../expressions/eBook_Content.expn</path>
+    </conditional>
+    <variable>
+      <name>US</name>
+      <path>../variablesets/US.var</path>
+    </variable>
+    <masterpage>
+      <name>EmployeeCare_eBook.htt</name>
+      <path>../../contents/assets/masterpages/EmployeeCare_eBook.htt</path>
+    </masterpage>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+  </content>
+  <outputPath>//Mac/Home/Documents/My RoboHelp Projects/outputs/EmployeeCare3/eBook</outputPath>
+  <starterPage>EmployeeCareRh.epub</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <name>eBook</name>
+  <type>epub</type>
+  <title>Policies and Procedures</title>
+  <defaultTopic></defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+</preset>

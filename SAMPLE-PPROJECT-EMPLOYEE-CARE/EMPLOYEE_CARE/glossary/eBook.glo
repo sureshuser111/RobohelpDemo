@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="eBook">          
+<title>Glossary Definitions</title>        
+<glossentry id="Attendance">
+<glossterm>Attendance</glossterm>
+<glossdef>Days in Office</glossdef></glossentry></glossgroup>

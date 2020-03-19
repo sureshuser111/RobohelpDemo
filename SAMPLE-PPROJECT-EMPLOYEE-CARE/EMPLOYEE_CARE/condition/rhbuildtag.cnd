@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Others" val="AuthorContent" backcolor="#00ffff"></prop>
+  <prop att="Others" val="Canada" backcolor="#008000"></prop>
+  <prop att="Others" val="eBookOnly" backcolor="#ff00ff"></prop>
+  <prop att="Others" val="Employee_Care_Topics" backcolor="#00ff00"></prop>
+  <prop att="Others" val="Not_eBook" backcolor="#800000"></prop>
+  <prop att="Others" val="Online_Only" backcolor="#000080"></prop>
+  <prop att="Others" val="UK" backcolor="#0000ff"></prop>
+  <prop att="Others" val="US" backcolor="#ff0000"></prop>
+</val>
