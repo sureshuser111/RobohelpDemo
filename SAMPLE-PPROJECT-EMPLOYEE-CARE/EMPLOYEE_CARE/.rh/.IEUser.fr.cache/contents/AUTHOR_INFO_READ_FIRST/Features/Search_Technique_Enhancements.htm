@@ -1,0 +1,154 @@
+
+Search Technique Enhancements
+Enhanced Search Results in Responsive Layouts
+The author can now choose whether to open the search results in the 
+ main Topic pane, or the Navigation Sidebar.
+
+ 
+This is accomplished by selecting "true" in the Responsive 
+ Layout Customization Editor shown here.
+
+Author-Customized Search Context
+The Search Context (the text under the Topic Title) can be customized 
+ by the author. The default is a short amount of the first paragraph to 
+ give the reader a sense of what the topic is about.
+
+Improving Search Ranking
+One way to help your users find the most relevant results is with the 
+ Search Ranking capabilities Adobe RoboHelp. For WebHelp or WebHelp Pro, 
+ the author can control whether or not the Search Ranking column in the 
+ Search Results is presented.
+To disable Search Ranking, examine the properties of the WebHelp or 
+ WebHelp Pro single source layouts and ensure the option labeled Hide Rank 
+ Column in Search Results is enabled.
+Search Ranking is influenced by a number of factors including this hierarchy:
+Search Keyword(s) appear in this order of importance:
+
+
+	Title 
+	 of a topic
+	Topic 
+	 Keyword - this is very powerful. (See Keywords on the General 
+	 tab of Topic Properties)
+	Headings 
+	 1, 2, 3, 4, 5, 6 (in that order)
+	Number 
+	 of times in topic text
+	Project 
+	 Synonyms created from Output Tab > Synonyms.
+
+Support for AND search
+By default, RoboHelp performs OR searches when a user types multiple 
+ words without enclosing them in quotation marks. This means that RoboHelp 
+ finds all topics that have any of the words specified in the Search box. 
+ The end user may want to limit the search where specific words occur in 
+ the same topic. This can now be done with the new AND Search feature.
+AND Examples:
+Image AND photo finds topics containing 
+ both terms.
+Image AND photo AND graphic finds 
+ records containing all three terms.
+Enabling this feature for WebHelp and WebHelp Pro:
+In the output settings, you can specify 
+ whether or not AND search should be enabled by default. In addition, when 
+ AND search is supported in the output, end users have the option to enable 
+ or disable it. For WebHelp and WebHelp Pro, select the Show AND Search 
+ In Output option in the output settings, RoboHelp performs AND search 
+ when a user types multiple words without enclosing them in quotation marks. 
+ Then, RoboHelp finds only the topics that have all the words specified 
+ in the Search box.  AND search can be used in combination with phrase 
+ search.
+To enable AND Search in Multiscreen HTML5 Screen Layouts place a Multiscreen 
+ HTML5 Widget - "Advanced Search Options" into your screen layout.
+External Content Search metadata provides access to user-generated 
+ content
+The help author may now be a "curator" of content that guides 
+ the end-user more precisely to the most relevant material. Today, help 
+ systems go beyond static help files. There are blogs, wikis, and other 
+ Web 2.0 communities that are happy to share information whether it relates 
+ to work or play. Your end-users may tap into this rich and dynamic repository 
+ to find information as well as contribute to the body of information themselves.
+This is accomplished by using External Content Search. This makes it 
+ easy to enter the search metadata. The author may create keywords that 
+ are linked to a URL. When the end user uses RoboHelp's search facility 
+ and searches for these keywords, the links are listed among the search 
+ results and ranked in the top position. The resulting link presents a 
+ live site inside the topic pane.
+
+Notice the Conditional Build Tag "Draft" has been added to 
+ the Travelocity search term.
+What the External Content Search feature does
+Example Scenario: An author wants to make it convenient for users to 
+ make travel arrangements. The company wants certain travel sites to come 
+ up in the search results for certain keywords that users may enter, such 
+ as
+
+	
+	
+	
+		
+			Sales
+			Funnel
+			Expedia
+			Xpedia
+			xpeedia
+		
+		
+			
+				Travel
+				Travelocity
+				Orbitz
+				Orbits
+			
+		
+		 
+	
+
+You can create a Google Advanced Search of a specific term (or terms) 
+ then capture the URL from the address bar of the browser and use this 
+ URL in order to allow pre-populating of a Google search. If you open the 
+ External Content Search pod you can see this in action and note how the 
+ terms are associated with the link. The External Content Search keywords 
+ cause the associated Link to rank at the number one position.
+How to see the External Content Search feature in action
+Generate 
+ one of the supported outputs with the External Content Search feature 
+ enabled.The supported 
+ outputs for this feature are:
+
+
+	
+		Multiscreen 
+		 HTML5
+		Responsive 
+		 HTML5
+		WebHelp
+		WebHelp 
+		 Pro
+		FlashHelp
+		FlashHelp 
+		 Pro
+	
+
+View the 
+ output.Perform 
+ a search using one of the search terms programmed in the External Content 
+ Search dialog.Click 
+ one of the resulting search result links.
+
+
+
+Searching documents in their file native formats
+Sometimes, a file must remain in its native format. So files such as 
+ PDFs, Docs, Spreadsheets and PowerPoints 
+ can be added to your project and be searchable. RoboHelp calls these "Baggage" 
+ files because they "go along for the ride" when you publish 
+ your project. Now you have your choice to include or exclude those baggage 
+ file types. This includes support for CJK (Chinese 
+ / Japanese / Korean) search as well.
+
+ 
+ 
+ 
+
+

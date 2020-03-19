@@ -1,0 +1,97 @@
+
+Multiscreen HTML5 Output
+If you have not previously created any HTML5 outputs, 
+ you may find it easier to start with the new Responsive HTML5 output introduced 
+ in Adobe RoboHelp 11.
+Multiscreen HTML5 allows you to create different designs and publish 
+ different content for different devices from the same source material. 
+ The configuration for each device can be optimized to suit the operating 
+ system, be it Windows, Android or iOS.
+The steps are quite straightforward.
+In the 
+ Output Setup you use the supplied profiles and screen layouts or you can 
+ set up your own. Screen Profiles set out parameters to identify a device 
+ by screen size and / or the browser used. For example you can set up one 
+ profile for Android devices, one for iPhones, one for iPads and a catch 
+ all for browsers such as Internet Explorer, Firefox and Chrome. You can 
+ also set screen size parameters for each of the browsers so provide more 
+ than one layout per browser.In the 
+ Multiscreen HTML 5 layout you map those profiles to the layouts you have 
+ chosen. By that means the smaller screen devices can use one layout while 
+ the devices with larger screens can use a different layout.
+
+Screen Profiles and Screen Layouts
+The screen profiles and screen layouts are shown in Output Setup. Here 
+ you will see all the profiles and layouts available to the project. You 
+ can add and delete as required.
+
+The profiles are mapped to the layouts within the Multiscreen HTML5 
+ Single Source Layout. On first accessing the layout, all the screen profiles 
+ in the project will be listed on the left. They will also be listed on 
+ the right and be mapped to a screen layout. If you don't want an output 
+ for all the devices, simply highlight them on the right and use the Remove 
+ Screen Profile(s) button. They will be removed from both lists and the 
+ order will reflect whatever you set using the Move Up and Move Down buttons. 
+ If you add new profiles later, they will not automatically appear on the 
+ left, you need to use the Add Screen Profile(s) button in any layout where 
+ you want the new profile to be included.
+
+
+Content
+The familiar options for defining the content for each profile are shown 
+ below and you need only complete those details for the profiles you retain 
+ above.
+Because you can select different settings and apply different Conditional 
+ Build Expressions to each profile, you can have different content  for 
+ each device. For example, by using different User Defined Variables, you 
+ can use the word "Click" on desktop devices and "Tap" 
+ on smartphones and tablets.
+
+Search
+The Search settings allow you to define different search parameters 
+ for each profile. You may want to show a smaller number of characters 
+ on devices with small screens. Note that RoboHelp allows you to exclude 
+ specific file types from the search results.
+
+Optimization
+The Optimization settings allow you to optimize the output for each 
+ device.
+
+Publish
+The Publish settings enable you to place your output directly onto a 
+ server. Use these or just give your developer everything that is in your 
+ Generate folder.
+
+SharePoint
+If you use SharePoint, the settings will need to be defined here. See 
+ SharePoint Integration 
+ for more information about SharePoint.
+
+ 
+
+Generating
+When you start the generation process, you will see RoboHelp creating 
+ an output for each of the profiles you included. What you will find in 
+ the !SSL! folder is shown below. The index.htm file is not the start page 
+ that you are familiar with in WebHelp. In each of the output folders you 
+ will find the familiar structure with an index.htm file that is a start 
+ page for that layout.
+Your developers have four options.
+They can 
+ put all the outputs on a server and point all devices to the index.htm 
+ page shown below. That is a "sniffer" and will detect what it 
+ needs to know about the end user's device and serve up the appropriate 
+ help.
+
+They can 
+ put the content for a specific device on the server and link to the index.htm 
+ file found in the output folder for the device.For other 
+ devices, your developers can take the HTML5 output and convert it using 
+ their preferred tool.
+
+
+You do not have to create multiple outputs. You can use this layout 
+ to create help just for a tablet or you can use the Desktop layout to 
+ create "WebHelp" in HTML5 format.
+
+
